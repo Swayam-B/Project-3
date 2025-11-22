@@ -31,11 +31,19 @@ int main(int argc, char** argv)
     fscanf(cmd, "%hu", &num_bytes);
     fscanf(cmd, "%255s", datafile);
     fscanf(cmd, "%31s", mode);
+
+    char* m = mode;
+    while (*m != '\0') {
+        if (*m == '\r' || *m == '\n')
+            *m = '\0';
+        m++;
+    }
+
     fclose(cmd);
 
-    fprintf(out, "Bytes in file:  %hu\n", num_bytes);
-    fprintf(out, "Name of file:   %s\n", datafile);
-    fprintf(out, "Clear|Fuzzy:    %s\n", mode);
+    fprintf(out, "Bytes in file:\t%hu\n", num_bytes);
+    fprintf(out, "Name of file:\t%s\n", datafile);
+    fprintf(out, "Clear|Fuzzy:\t%s\n", mode);
 
     FILE* bin = fopen(datafile, "rb");
     if (bin == NULL)
