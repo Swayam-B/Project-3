@@ -1,0 +1,9 @@
+initialize 3
+load words-1.txt
+display
+find 8
+find 0
+find 3
+find 1
+find 7
+find 26

@@ -1,0 +1,9 @@
+initialize 34
+load words-3.txt
+display
+find 69
+find 117
+find 132
+find 151
+find 43
+find 183

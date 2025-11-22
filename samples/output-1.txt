@@ -1,0 +1,31 @@
+Command: initialize 3
+Command: load words-1.txt
+Command: display
+Produced             @ Offset: 08
+by                   @ Offset: 02
+David                @ Offset: 05
+Edwards,             @ Offset: 08
+Ernest               @ Offset: 06
+Schaal,              @ Offset: 07
+Robert               @ Offset: 06
+Homa                 @ Offset: 04
+and                  @ Offset: 03
+the                  @ Offset: 03
+Online               @ Offset: 06
+Distributed          @ Offset: 0b
+Proofreading         @ Offset: 0c
+Team                 @ Offset: 04
+at                   @ Offset: 02
+http://www.pgdp.net  @ Offset: 13
+Command: find 8
+and                  @ Offset: 03
+Command: find 0
+Produced             @ Offset: 08
+Command: find 3
+Edwards,             @ Offset: 08
+Command: find 1
+by                   @ Offset: 02
+Command: find 7
+Homa                 @ Offset: 04
+Command: find 26
+Word Not Found       @ Offset: 00

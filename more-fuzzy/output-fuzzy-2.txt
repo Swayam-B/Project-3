@@ -1,0 +1,17 @@
+Bytes in file:	125
+Name of file:	data-fuzzy-2.bin
+Clear|Fuzzy:	fuzzy
+Premature            @ Offset: 5c
+abstraction          @ Offset: 68
+is                   @ Offset: 31
+an                   @ Offset: 07
+equally              @ Offset: 4a
+grevious             @ Offset: 3f
+sin                  @ Offset: 36
+as                   @ Offset: 76
+premature            @ Offset: 0c
+optimization.        @ Offset: 21
+                     @ Offset: 3c
+--                   @ Offset: 7b
+Keith                @ Offset: 54
+Devens               @ Offset: 18

@@ -1,0 +1,3 @@
+259
+data-fuzzy-1.bin
+fuzzy

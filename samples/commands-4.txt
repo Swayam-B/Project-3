@@ -1,0 +1,9 @@
+initialize 41
+load words-4.txt
+display
+find 45
+find 158
+find 187
+find 85
+find 100
+find 218
